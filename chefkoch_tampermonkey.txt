@@ -15,9 +15,6 @@
         document.getElementById('top-picture').src = newPic;
     }
 
-    //Eigener Link (Bidwechsel)
-    //$(".imagewrapper").append(`<a href="javascript:ChangePic;" onclick="alert('Ich war schon da!');" title="Bild wechseln" class="dontprint">Bild wechseln</a><br>`);
-
     $(".com-logo-box").css("display", "none"); //Blendet das Logo aus
     $(".recipe-ck-sl-teaser").css("display", "none"); //Blendet Hinweis zur "Chefkoch SmartList" aus
     document.getElementById("recipe-qrcode").style.display="none"; //Blendet den QR-Code aus
